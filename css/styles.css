@@ -150,6 +150,8 @@ main a{
 		transform:perspective(1000px);
 		animation: gallery 20s linear infinite;
 		cursor:pointer;
+		margin:40px auto;
+		perspective: 1000px;
 	}
 	/* each panel(image holder) for slide-show*/
 	.slideshow-container span{
