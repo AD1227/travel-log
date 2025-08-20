@@ -138,10 +138,18 @@ main a{
 
 /* style for mobile view port: slideshow */
 	.slideshow-container{
+		/*
 		position:relative;
 		width: 100%;
 		margin: auto;
-		overflow: hidden;
+		overflow: hidden; */
+		width:200px;
+		height:350px;
+		position:relative;
+		transform-style:preserve-3d;
+		transform:perspective(1000px);
+		animation: gallery 20s linear infinite;
+		cursor:pointer;
 	}
 	.slides{
 		display: flex;
