@@ -171,7 +171,7 @@ main a{
 		box-shadow:0 10px 30px rgba(0,0,0,.35);
 	}
 /*Spin animation */
-@keyframe gallery{
+@keyframes gallery{
 	from{ transform: rotateY(0deg);}
 	to {transform:rotateY(360deg);}
 }
