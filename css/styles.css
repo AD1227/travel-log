@@ -160,9 +160,9 @@ main a{
 		position: absolute;
 		inset:0;
 		transform-style:preserve-3d;
-		/* 9 images --> 360/9 = 40deg between panels */
+		/* 8 images --> 360/9 = 40deg between panels */
 		transform:
-			rotateY(calc(var(--i)*40deg))
+			rotateY(calc(var(--i)*45deg))
 			translateZ(300px); /*radius of the carousel */
 	}
 	.slideshow-container img{
