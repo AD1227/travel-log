@@ -143,8 +143,8 @@ main a{
 		width: 100%;
 		margin: auto;
 		overflow: hidden; */
-		width:300px;
-		height:350px;
+		width:350px;
+		height:300px;
 		position:relative;
 		transform-style:preserve-3d;
 		transform:perspective(1000px);
@@ -162,7 +162,7 @@ main a{
 		transform-style:preserve-3d;
 		/* 8 images --> 360/9 = 40deg between panels */
 		transform:
-			rotateY(calc(var(--i)*45deg))
+			rotateY(calc(var(--i)*40deg))
 			translateZ(400px); /*radius of the carousel */
 	}
 	.slideshow-container img{
